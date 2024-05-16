@@ -1,0 +1,9 @@
+Delivery_Type
+外送員欄位代碼對照
+01.Foodpanda
+02.UberEats
+03.Lalamove(拉拉快送)
+04.Dliveroo(戶戶送)(已於109.04.停止服務)
+05.Foodomo
+06.Yo-woo(有無外送)
+07.其他
