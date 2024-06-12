@@ -16,6 +16,9 @@
 ## 資料集  
 本資料集為公開資料集，能於data資料夾中下載，又或是前往[台北市交通局](https://www.dot.gov.taipei/)進行查閱  
 
+## 模型  
+我們參考[AIF360](https://github.com/Trusted-AI/AIF360/tree/main)中的demo_mdss_detector.ipynb
+
 ## 專案說明  
 我們將提取105年-109年的資料集中欄位為「性別」、「年齡」、「車種」、「15事故類型及型態」 、「 22受傷程度」、「 Delivery_Type」和「7速限」，並創建一個空的 DataFrame df_combined，用來存儲合併後的數據，接著進行清理和轉換數據。完成後將features定義成模型的特徵變數，包括性別、年齡、車種、速限、Delivery_type和事故類型及型態，而y是目標變數，即受傷程度。設定favorable_value為 'high'，表示"無受傷" 是有利的結果，最後執行bias_scan函數。  
 通過 bias_scan 函數，對數據進行偏差檢測，分別識別出在預測過程中可能存在的特權子集和非特權子集。其中特權子集指的是在預測有利結果中可能被過度預測的群體，而非特權子集則是可能被低估的群體。  
