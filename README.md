@@ -18,4 +18,4 @@
 通過 bias_scan 函數，對數據進行偏差檢測，分別識別出在預測過程中可能存在的特權子集和非特權子集。其中特權子集指的是在預測有利結果中可能被過度預測的群體，而非特權子集則是可能被低估的群體。  
 
 ## License  
-This repository is under [MIT License](https://github.com/ccudl2024/DL2024_Team2_Bias-Detection-in-Traffic-Accidents/main/LICENSE).
+This repository is under [MIT License](LICENSE).
